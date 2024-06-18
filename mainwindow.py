@@ -130,10 +130,6 @@ class MainWindow(QMainWindow):
 
         self.ui.reconsLayout.addWidget(canvas2)
 
-        #qimage = QImage(sinogram, sinogram.shape[1], sinogram.shape[0], sinogram.shape[1], QImage.Format_Grayscale8)
-        qimage = QImage("sinogram.png")
-        pixmap = QPixmap(qimage)
-
     def clearButtonClicked(self):
         self.clearInterface()
 
