@@ -1,2 +1,2 @@
-# medical_image_reconstruction
+# Medical Image Reconstruction
 ![](screenshots/gif.gif)
